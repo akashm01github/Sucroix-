@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.inverted {
+	clip-path: path("M12,0H390A14,14 0,0,1 404,14V32A8,8 0,0,0 412,40H492A12,12 0,0,1 504,52V292A12,12 0,0,1 492,304H114A14,14 0,0,1 100,290V272A8,8 0,0,0 92,264H12A12,12 0,0,1 0,252V12A12,12 0,0,1 12,0Z");
+	width: 500px;
+	height: 304px;
+	background-color: #f50000; /* border-color */
+	aspect-ratio: 5 / 3;
+	background-image: url('https://images.unsplash.com/photo-1511193311914-0346f16efe90?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1173');
+	box-sizing: border-box;
+    border: 2px solid black;
+}
